@@ -1,0 +1,62 @@
+body{
+    background-color: hwb(33 87% 6%);
+    
+}
+.img{
+    background-image: url('ImageLocation');
+                  background-size: cover;
+                  height: 480px;
+                  padding: 50px;
+}
+.img-box{
+    background-color: aliceblue;
+    margin: 50px 25px;
+}
+.event-box{
+    background-color: aliceblue;
+    padding-top: 100px;
+    height: 480px;
+    margin: 50px 25px;
+}
+  
+.name{
+    margin :10px;
+    
+}
+.email{
+    margin: 10px;
+    
+}
+.phno{
+    margin: 10px;
+}
+.nos{
+    margin: 10px;
+}
+.nameof{
+    margin: 10px;
+}
+.button{
+    margin: 75px 30px;
+}
+.submit{
+    margin: auto;
+    padding: 50px;
+}
+.cancel{
+    margin: auto;
+    padding-left: 15px;
+}
+.btn{
+    width: 140px;
+    border-radius: 15px;
+    background-color: sandybrown;
+}
+.btn:hover{
+ background-color:hwb(33 87% 6%);
+}
+.btn:focus{
+background-color: sandybrown;
+}
+
+

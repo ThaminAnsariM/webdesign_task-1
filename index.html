@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my webpage</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="box">
+    <div class="heading text-center" style="padding-top: 40px">
+      <h1>Event !</h1>
+    </div>
+    <div class="count text-center" style="padding-top: 20px">
+      <h4>Number of available seats: 23</h4>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="img-box">
+            <div class="img">
+              <img src="Event-PNG-Image.png" style="height: 400px" />
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="event-box">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="cred text-right">
+                    <div class="name" style="font-size: 20px">Name :</div>
+                    <div class="email" style="font-size: 20px">Email :</div>
+                    <div class="phno" style="font-size: 20px">No :</div>
+                    <div class="nos" style="font-size: 20px">
+                      No of Seats :
+                    </div>
+                    <div class="nameof" style="font-size: 20px">
+                      Name of attendy 2 :
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="val" style="padding-top: 5px">
+                    <div class="name">
+                      <input type="text" name="Name" id="Name" />
+                    </div>
+                    <div class="email">
+                      <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="phno">
+                      <input type="number" name="Num" id="Num" />
+                    </div>
+                    <div class="nos">
+                      <input type="number" name="seats" id="seats" min="0" max="10" />
+                    </div>
+                    <div class="nameof">
+                      <input type="text" name="nameof" id="nameof" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="button">
+              <span class="submit"><button type="button" class="btn btn-warning">
+                  Submitt
+                </button></span><span class="cancel"><button type="button" class="btn btn-warning">
+                  cancel
+                </button></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
